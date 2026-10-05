@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>Flash World - Flash Games</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <img style="display:block;margin:auto;" src="flashgames.png">
+  <div class="navbar">
+    <a href="/"><button>Home</button></a>
+
+    <a href="Games.html"><button><b>Flash Games</b></button></a>
+
+    <a href="Other.html"><button>Other Games</button></a>
+
+    <a href="htgf.html"><button>How to get Flash</button></a>
+
+    <a href="Contact.html"><button>Contact</button></a>
+  </div>
+  <div class="content-box" id="GamesDiv" style="text-align: center;">
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const games = [
+          {title: "Angry Birds", link: "ab.html"},
+          {title: "Papa's Pizzeria", link: "papi.html"},
+
+          // Add more games here as needed
+        ];
+        const gameList = document.getElementById("GamesDiv");
+        games.forEach(game => {
+          const listItem = document.createElement('div');
+          const link = document.createElement('a');
+          link.setAttribute("class", "gamelink");
+          link.textContent = game.title;
+          link.href = `games/${game.link}`;
+          listItem.appendChild(link);
+          gameList.appendChild(listItem);
+        });
+        document.body.appendChild(gameList);
+      });
+    </script>
+  </div>
+</body>
+
+</html>
