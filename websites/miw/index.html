@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="shortcut icon" href="miwlogo2.ico" type="image/x-icon">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(./bgthumb/starstwinkle.gif); cursor: url('./cursor/click2.png'), auto; color:white;">
+  <div style="float: right; text-align: right;"" ><img src="miwlogo2.ico" alt="favicon" width="50" height="50"></div>
+  <script>
+  
+   function closechl() {
+      document.getElementById('changelog').style.display = 'none';
+    }
+  
+  </script>
+  <div  id="changelog" style="position:-webkit-sticky;position: sticky;top: 0;display:block; margin: 0px;opacity: 40%; float:left;padding:1.8vw;border: 4px outset; background-color: rgb(255, 255, 255);;border-color: rgb(255, 255, 255);color: black;"><h1><b>Changelog</b></h1>
+<ul>
+  <li>added new pages</li>
+</ul>
+
+<p id="button" onclick="closechl()" style="cursor: url('./cursor/point2.png'), auto;background-color: white; padding: 3px; border:4px outset; text-align:center; margin-left: 10px; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" >close</a></p> 
+</div>
+  <div style="text-align:center; padding: 10px;border: 4px inset; margin-left: 20%; margin-right: 20%; background-color: darkblue; margin-bottom: 20px;border-color: darkcyan;"><img style="width:99%;" src="./media/homelogo 2.png" alt="logo"></div>
+
+
+<div style="color:rgb(255, 255, 255); text-align:center; padding: 10px;border: 4px inset; margin-left: 20%; margin-right: 20%; background-color: darkblue; margin-bottom: 20px; border-color: darkcyan;"> 
+  <p id="time">PLACEHOODLER!!!!!!! Uh oh! Looks like the clock hasn't loaded</p>
+  <script>
+let d = new Date()
+    setInterval(livetime, 500);
+
+function livetime() {
+  let d = new Date()
+  document.getElementById('time').innerText = 'Today is ' +d.toDateString()+' and it is currently '+d.toTimeString();
+}
+  
+  </script>
+</div>
+
+<div style="color:white; text-align:center; padding: 10px;border: 4px inset; margin-left: 20%; margin-right: 20%; background-color:darkblue;border-color: darkcyan;">
+<br> 
+<h3>sweet tunes!</h3>
+  <audio id="player" volume="0.1" controls>
+    <source src="./music/cssamp.mp3" type="audio/mpeg" >
+  </audio>
+
+<br>
+  <h1>PAGES!!!!!</h1>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="./games/index.html">Games</a></p>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="./gifzone/index.html">THE GIF ZONE</a></p>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="./randomphotos/index.html">random images!</a></p>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="./hacks/index.html">Javascript Hacks</a></p>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="bttuStory.html">Back To The Upcoming</a></p>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="https://epiccats.netlify.app">My Epic Cats</a></p>
+<p style="padding: 3px; border:4px outset; text-align:center; margin-left: 40%; margin-right: 40%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;background-color: cyan;border-color: darkturquoise;"><a  style="text-decoration: none;color: black; cursor: url('./cursor/point2.png'), auto;" href="SHRINESHRINESHRINESHRINESHRINESHRINESHRINESHRINE.html">Gorky</a></p>
+
+
+<script>
+    function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+}
+document.write('<img src="./gifs/gif (' + getRandomInt(1, 25) + ').gif" style="Height: 120px; margin-right:auto;margin-left:auto; margin-top:30px;margin-bottom:30px;">')
+</script>
+<br>
+<a title="watching grass grow" style="text-decoration: none; color:aquamarine ; cursor: url('./cursor/point2.png'), auto;" href="https://www.watching-grass-grow.com/">Watch some grass grow if your're bored!</a>
+<br>
+<br>
+<a href="https://www.watching-grass-grow.com/" style="cursor: url('./cursor/point2.png'), auto;"><img src="https://www.watching-grass-grow.com/watching-grass-grow.gif" alt="watching grass grow" title="watching grass grow"></a>
+<br>
+
+</div>
+<br>
+<br>
+<p style=color:white;text-align:center;> Special thanks to <a href="https://www.w3schools.com" target="_blank" style="cursor: url('./cursor/point2.png'), auto;" >W3schools</a> and <a href="https://stackoverflow.com" target="_blank" style="cursor: url('./cursor/point2.png'), auto;">Stack overflow</a> for being my primary code reference and help resource, <a href="https://gifcities.org" target="_blank" style="cursor: url('./cursor/point2.png'), auto;">Archive.org's Gifcites Website</a> for helping me find 2000s gifs for backgrounds, and You for visitng my website!</p>
+<p style="font-size: smaller; text-align: center;">Last updated 1/23/2023 8:28am</p>
+</body>
+</html>

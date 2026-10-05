@@ -1,0 +1,32 @@
+<html lang="en-us">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>js-dos api</title>
+    <style type="text/css">
+      .dosbox-container { width: 640px; height: 400px; }
+      .dosbox-container > .dosbox-overlay { background: url(https://js-dos.com/cdn/digger.png); }
+    </style>
+</head>
+<body style="background-image: url(../../bgthumb/spacebackground.gif); cursor: url('../cursor/click2.png'), auto; color:white;">
+    <p style="background-color: white; padding: 3px; border:4px outset; text-align:left; margin-left: 10px; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;width: max-content;"><a  style="text-decoration: none;color: black; cursor: url('../cursor/point2.png'), auto;"  href="../index.html">Return</a></p> 
+    <div id="dosbox"></div>
+    <br/>
+    <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
+    
+    <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+    <script type="text/javascript">
+      var dosbox = new Dosbox({
+        id: "dosbox",
+        onload: function (dosbox) {
+          dosbox.run("https://js-dos.com/cdn/digger.zip", "./DIGGER.COM");
+        },
+        onrun: function (dosbox, app) {
+          console.log("App '" + app + "' is runned");
+        }
+      });
+    </script>
+</body>
+</html>

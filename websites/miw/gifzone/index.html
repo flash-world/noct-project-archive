@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>THE GIF ZONE</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <p style="float:left;position:-webkit-sticky;position: sticky;top: 0;background-color: white; padding: 3px; border:4px outset; text-align:left; margin-left: 10px; width: max-content; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;"><a  style="text-decoration: none;color: black;"  href="../index.html">Return</a></p> 
+
+        <div style="padding: 20px;margin: 5px ; margin-left: 30%; margin-right: 30%; text-align: center; border: 4px outset;">
+            <h2>Welcome to</h2>
+            <h1>THE GIF ZONE</h1>
+<h6>I totally did not forget about this page!</h6>
+
+        </div>
+        <div style="padding: 20px;margin: 5px ; text-align: center; border: 4px outset;">
+            <h3>all you simply have to do is right click(or hold if you're on a mobile device) and then save the gif. Also don't worry! I do have more gifs coming soon!</h3>
+            <script>
+            const number = 32;
+             const gifs = new Array(number).fill(true).map((e, i) => i+1);
+            gifs.forEach(element => {
+                document.write('<a style="text-align: center;" target="_blank" href="../gifs/gif ('+ element + ').gif"><img src="../gifs/gif ('+ element + ').gif" style="Width: 15%; height:auto;"></a>')     
+            });
+            
+            </script>
+        </div>
+    </body>
+</html>
+

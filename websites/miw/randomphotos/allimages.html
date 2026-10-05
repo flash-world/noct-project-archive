@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>random photos</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url(../media/blueg.bmp)">
+    <p style="background-color: white; padding: 3px; border:4px outset; text-align:left; margin-left: 10px; width: max-content; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;"><a  style="text-decoration: none;color: black;"  href="./index.html">Return</a></p> 
+
+
+    <div style="margin: 40    px; padding: 10px;">
+        <script>
+            const number = 130;
+
+            const img = new Array(number).fill(true).map((e, i) => i+1);
+            img.forEach(element => {
+                document.write('<a style="text-align: center;" target="_blank" href="../bgthumb/image ('+ element + ').JPG"><img src="../bgthumb/image ('+ element + ').JPG" style="Width: 19.7%; height:auto; margin: 2px;"></a>')     
+            });
+            
+            </script>
+    </div>
+</body>
+</html>

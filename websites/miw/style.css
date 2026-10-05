@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'COMIC';
+    src: url('COMIC.TTF') format('truetype');
+  }
+body {
+   font-family: COMIC; 
+}
+
+@keyframes rainbow {
+  9%{color:red; border: 2px red;}
+  18%{color:orangered; border: 2px orangered;}
+  27%{color:orange; border: 2px orange;}
+  36%{color:yellow; border: 2px yellow;}
+  45%{color:greenyellow; border: 2px greenyellow;}
+  54%{color:green; border: 2px green;}
+  63%{color:blue; border: 2px blue;}
+  72%{color:indigo; border: 2px indigo;}
+  81%{color:purple; border: 2px purple;}
+}
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #00c3ff;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: darkcyan;
+}
+tr:nth-child(odd) {
+  background-color: indigo;
+}
+@keyframes rainbowboxshadow {
+  0%  {box-shadow: 0px 0px 20px red;}
+  10% {box-shadow: 0px 0px 20px rgb(255, 123, 0);}
+  20% {box-shadow: 0px 0px 20px rgb(251, 255, 0);}
+  30% {box-shadow: 0px 0px 20px rgb(81, 255, 0);}
+  40% {box-shadow: 0px 0px 20px rgb(0, 255, 149);}
+  50% {box-shadow: 0px 0px 20px rgb(0, 247, 255);}
+  60% {box-shadow: 0px 0px 20px rgb(0, 119, 255);}
+  70% {box-shadow: 0px 0px 20px rgb(25, 0, 255);}
+  80% {box-shadow: 0px 0px 20px rgb(153, 0, 255);}
+  90% {box-shadow: 0px 0px 20px rgb(255, 0, 221);}
+  100% {box-shadow: 0px 0px 20px rgb(255, 0, 76);}
+}
+.gorky{
+  width:   400px;
+  height:auto;
+  float: none;
+  display: block;
+  margin: auto;
+  animation-duration: 2s;
+  animation-name: rainbowboxshadow;
+  animation-iteration-count: infinite;
+
+}
+.gorkythumb{
+  width: 200px;
+  height:200px;
+  float: none
+}
+.gorkytxt{
+ animation-name:rainbowshadow ;
+ animation-iteration-count: infinite;
+ animation-duration: 2s;
+ text-align: center;
+ transition: 2ms;
+}
+
+@keyframes rainbowshadow {
+  0%  {text-shadow: 0px 0px 9px red;}
+  10% {text-shadow: 0px 0px 9px rgb(255, 123, 0);}
+  20% {text-shadow: 0px 0px 9px rgb(251, 255, 0);}
+  30% {text-shadow: 0px 0px 9px rgb(81, 255, 0);}
+  40% {text-shadow: 0px 0px 9px rgb(0, 255, 149);}
+  50% {text-shadow: 0px 0px 9px rgb(0, 247, 255);}
+  60% {text-shadow: 0px 0px 9px rgb(0, 119, 255);}
+  70% {text-shadow: 0px 0px 9px rgb(25, 0, 255);}
+  80% {text-shadow: 0px 0px 9px rgb(153, 0, 255);}
+  90% {text-shadow: 0px 0px 9px rgb(255, 0, 221);}
+  100% {text-shadow: 0px 0px 9px rgb(255, 0, 76);}
+}
+.gorkydiv{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.centlink{
+  color: aqua;
+  text-align: center;
+}
+.button{
+  float:left;
+  position:-webkit-sticky;position: sticky;
+  top: 0;
+  background-color: white; padding: 3px; 
+  border:4px outset;
+   text-align:left; 
+   margin-left: 10px;
+    text-decoration: none;
+   color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: max-content;
+   text-decoration: none;
+   color: black; 
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style="background-image: url(../../bgthumb/spacebackground.gif); cursor: url('../cursor/click2.png'), auto; color:white;">
+    <p style="background-color: white; padding: 3px; border:4px outset; text-align:left; margin-left: 10px; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;width: max-content;"><a  style="text-decoration: none;color: black; cursor: url('../cursor/point2.png'), auto;"  href="../index.html">Return</a></p> 
+    
+
+    <script>
+        const dir = "../swf/"
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("container");
+            container.appendChild(player);
+            player.load("https://monozone.netlify.app/games/swf/interactive_buddy.swf");
+        });
+    </script>
+    <script src="../ruffle-nightly-2022_12_07-web-selfhosted/ruffle.js"></script>   
+    <div id="container" style="margin-left: 24.9%;margin-right: 24.9%;"></div>
+</body>
+</html>

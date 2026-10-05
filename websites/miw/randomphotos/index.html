@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>random photos</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url(../bgthumb/spuare.gif) ;cursor: url('../cursor/click2.png'), default ; ">
+    <p style="background-color: white; padding: 3px; border:4px outset; text-align:left; margin-left: 10px; width: max-content; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px;"><a  style="text-decoration: none;color: black; cursor: url('../cursor/point2.png'), auto;"  href="../index.html">Return</a></p> 
+    
+
+    
+
+    <div style="margin: 40    px; padding: 10px;align-items: center; text-align: center;">
+        <h1 style="color:rgb(73, 7, 255);text-align: center;">check out a sick random image that I took!</h1>
+        <img id="image" src="" alt="image" style="Width: 640px; height:480px; margin-right:25%;margin-left:25%;border: 10px outset rgb(95, 63, 35);">
+        <p id="button" style="float:left;position:-webkit-sticky;position: sticky;top: 0;background-color: white; padding: 3px; border:4px outset; text-align:center;margin: auto; width: 20%; text-decoration: none;color: black; margin-top: 5px; margin-bottom: 5px; cursor: url('../cursor/point2.png'), auto;">New Image</p>
+        <script>
+                function getRandomInt(min, max) {
+              min = Math.ceil(min);
+              max = Math.floor(max);
+              return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+            }
+            function newImage(){
+            
+            document.getElementById('image').src = '../bgthumb/image (' + getRandomInt(1, 130) + ').jpg';
+            }
+            newImage();
+            document.getElementById('button').addEventListener('click',function(){
+                newImage();
+            });
+            var audio = new Audio('https://monozone.netlify.app/music/CAMERA.WAV');
+            audio.play();
+            </script>
+            <i><p style="color:rgb(255, 255, 255);text-align: center;"><b>FACT: you can refresh for a new sick random image instead of clicking the button! OR you can go <a href="./allimages.html" style="cursor: url('../cursor/point2.png'), auto;" target="_blank" >here</a> to see them all</b></p></i>
+            <audio id="player" autoplay  controls loop>
+              <source src="../music/flourish2.mp3" type="audio/mpeg" volume="0"  >
+            </audio>
+            <p style="color:rgb(255, 255, 255);text-align:center;">These photos were taken on a Panasonic <a href="https://en.wikipedia.org/wiki/Lumix"  target="_blank" style="cursor: url('../cursor/point2.png'), auto;">Lumix</a> DMC-LZ3</p>
+    </div>
+</body>
+</html>
