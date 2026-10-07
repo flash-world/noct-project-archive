@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="./gif/JW.gif">
+  
+  </head>
+<body>
+    <div class="headersec" style="background-image: url(./images/1.png);background-position:center;">
+        <h1>Creations</h1>
+
+      </div>
+      
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a  href="about.html" >About me!</a>
+        <a class="active"  >Creations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    <div style="text-align: center;"class="generic">
+        <h2>My Creations</h2>
+        <p style="text-align: center;"> This is a page full of my creations.
+         </p>
+        </div> 
+<div class="row">
+
+<div style="text-align: center;" class="column">
+  <h3 >Stoma Pack</h3>
+  <p  style="text-align:left;">The Stoma Pack is a custom modpack for my minecraft server.</p>
+<a  class="btn"  href="https://www.mediafire.com/file/2eovax0oajxu7hn/stomapack.7z/file">Download</a>
+  </div>
+  <div style="text-align: center;; float: left;" class="column">
+    <h3>ALA Earth Day Project</h3>
+    <p  style="text-align:left;">The ALA Earth Day Project was a website I coded for a school project related to Earth Day.</p>
+<a  class="btn"   href="https://626c3a2d19a650006f0d1963--alaearthday.netlify.app/">Website</a>
+    </div>
+    <div style="text-align: center;; float: left;" class="column">
+      <h3>ChaOS</h3>
+      <p  style="text-align:left;">The ALA Earth Day Project was a website I coded for a school project related to Earth Day.</p>
+  <a  class="btn"  href="https://cha-os.netlify.app/">Web Version</a>  <a  class="btn" href="https://scratch.mit.edu/projects/614514606/fullscreen/">Scratch</a>
+      </div>
+
+</div>         
+<div class="row">
+<div class="generic">
+  <h3 style="text-align: center;float: center;">My Youtube Channel</h3>
+  <p style="text-align: center;float: center;">I upload video game clips and occasionally make full videos.</p>
+  <p style="text-align: center;float: center;" >Check it out <a target="_blank" href="https://www.youtube.com/channel/UCEDe310Ai0KEbH8XZu-Rlyg/featured">here</a> or watch my featured video below.</p>
+  <br>
+  <iframe width="853" height="480" src="https://www.youtube.com/embed/sdpngKroAXE" title="Hypixel Bounty Hunters | Minecraft" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+</div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>     
+</body>
+</html>

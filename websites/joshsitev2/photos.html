@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="./gif/JW.gif">
+  
+  </head>
+<body>
+    <div class="headersec" style="background-image:url(./images/2.png) ;">
+        <h1>Photo Gallery</h1>
+
+
+      </div>
+      
+      <div id="navbar">
+        <a style="width: 25%; text-align: left;" href="about.html">Return</a>
+
+      </div>
+
+
+    <div style="text-align: center; text-decoration: none;"class="generic">
+      <p>Click or tap on the images to view the full image.</p>
+
+     
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220730_005059187.jpg">
+        <img class="imagecust"  src="./images/PXL_20220730_005059187.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220730_013051570.jpg">
+        <img class="imagecust"  src="./images/PXL_20220730_013051570.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220730_015548530.jpg">
+        <img class="imagecust"  src="./images/PXL_20220730_015548530.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220730_022020335.jpg">
+        <img class="imagecust"  src="./images/PXL_20220730_022020335.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220730_022656701.jpg">
+        <img class="imagecust"  src="./images/PXL_20220730_022656701.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;" style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220802_010952180.jpg">
+        <img class="imagecust"  src="./images/PXL_20220802_010952180.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;" style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220806_220948516.jpg">
+        <img class="imagecust"  src="./images/PXL_20220806_220948516.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220806_221243807.jpg">
+        <img class="imagecust"  src="./images/PXL_20220806_221243807.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220806_221303400.jpg">
+        <img class="imagecust"  src="./images/PXL_20220806_221303400.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220815_231449365.jpg">
+        <img class="imagecust"  src="./images/PXL_20220815_231449365.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220817_001330914.jpg">
+        <img class="imagecust"  src="./images/PXL_20220817_001330914.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220819_004544225.jpg">
+        <img class="imagecust"  src="./images/PXL_20220819_004544225.bmp" alt="picture">
+      </a>
+      <a style="text-decoration: none;color: #0c0c0c;"  href="./images/PXL_20220724_223600032.jpg">
+        <img class="imagecust"  src="./images/PXL_20220724_223600032.bmp" alt="picture">
+      </a>
+    </div> 
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>     
+</body>
+</html>

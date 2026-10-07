@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Facts</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ascend's Earth Day project.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Joshua Lovelace">
+    <link rel="stylesheet" href="../styles.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,900;1,100;1,200;1,400&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+<div class="headerp">
+<h1>Ascend Earth Day Project</h1>
+</div>
+   <div class="topnav">
+   
+  <a class="a" href="../index.html">Home</a>
+   <a class="active" href="../html/about.html">Facts</a>
+  <a class="b" href="https://www.ascendleadershipacademy.org/">School Website</a>
+  <a class="a" href="../html/phogal.html">Image Gallery</a>
+  <a class="a" style="float:right;" href="../html/abt.html">About</a>
+</div>
+<div class="row" style="line-height: 2px;">
+<div class="columncenter" style="text-align: center;">
+<h2>10 Earth Day Facts & how we can help!</h2>
+<h3>Facts</h3>
+<ol style="text-align: left;">
+<li>Senator Gaylord Nelson conceived Earth Day in the early 1960s</li>
+<li>The first Earth Day was in 1970</li>
+<li>Earth Day went global in 1990</li>
+<li>About one billion people recognize Earth Day each year</li>
+<li>Earth Day always falls on April 22</li>
+<li>In 2009, Earth Day was officially renamed by the UN to International Mother Earth Day</li>
+<li>20 million people participated in the first Earth Day.</li>
+<li>More than 100 billion pieces of junk mail are delivered in the United States each year.</li>
+<li>It is very important to celebrate Earth day each year because it recognizes the harm humans are capable of causing while showing the massive amounts of support across the globe for protecting the Earth and the environment.</li>
+<li>Earth Day has its own flag. It features a picture of the Earth taken from the Apollo 17 spacecraft on its way to the Moon.</li>
+</ol>
+<h3>How we can Help</h3>
+<ol style="text-align: left;">
+<li>Be car-free. Walk or bike to school — not only is it good for the body, it's good for the environment too!</li>
+<li>Make a bird feeder or house. Use a milk carton, a large water or soda bottle, or a pine cone</li>
+<li>Create recycling bins</li>
+<li>Grow something</li>
+<li>Spread the love</li>
+<li>People could start using electric cars. If you don’t have the money then it is ok. But, I would prefer electric cars so we don’t have to keep using oil.</li>
+<li>We should try not to use so much paper, that means that we are getting rid of trees when we get paper.
+</li>
+
+
+</ol>
+</div>
+
+</div>
+  </body>
+</html>

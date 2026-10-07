@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About me </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="./gif/JW.gif">
+  
+  </head>
+<body>
+    <div class="headersec" style="background-image: url(./images/4.png) ;">
+        <h1>About Me</h1>
+
+
+      </div>
+      
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a class="active" >About me!</a>
+        <a href="creations.html">Creations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    <div class="generic">
+        <h2>About me</h2>
+        <p>Hello I'm Joshua. You can call me Josh if you'd like to. I code in my freetime but I mostly play video games 
+          or I hang out with my friends. I'm more of a retro gamer which basically means I play older games (I specifically play like to play games between the 90's to early 2000's)
+          but I do enjoy playing newer games. I also collect older games and devices like iPods, Old Phones, Computers, etc.  do make youtube videos as well but not often. I  write stories when I feel like doing it. 
+          Thing is they're typically short joke stories. I have been to 1 concert so far (Phish concert; they're really cool). I also take photos some cool and silly photos with my phone I have a link to some of my some of my photos at the bottom of this page.
+         </p>
+
+         <p>Here's 20 PC games I play.
+          <ol style="font-size: 18px;     font-family: 'Open Sans', sans-serif;">
+            <li>Garry's Mod</li>
+            <li>Half-Life 1</li>
+            <li>Half-Life 2</li>
+            <li>Minecraft Java</li>
+            <li>Minecraft Bedrock</li>
+            <li>Roblox</li>
+            <li>Simcity 4 deluxe</li>
+            <li>Fallout 3</li>
+            <li>Quake 3 Arena </li>
+            <li>Openarena</li>
+            <li>SimCity 3000</li>
+            <li>Call of Duty</li>
+            <li>DOOM 3</li>
+            <li>Medal of Honor Allied Assault</li>
+            <li>Atari Aniversary Edition</li>
+            <li>Lego Island 2</li>
+            <li>Diablo II</li>
+            <li>Microsoft Flight Simulator 2004</li>
+            <li>Counter Strike Source</li>
+            <li>Half-Life 2 Deathmatch</li>
+          </ol>
+          <p>Feel free to hit me up!</p>
+         </p>
+         <br>
+
+    </div> 
+    <div class="generic" style="text-align: center; float: center;">
+      <br>
+      <a style="margin: 20px; margin-bottom: 12px;" class="btn" href="./photos.html">Photo Gallery</a> 
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>     
+</body>
+</html>

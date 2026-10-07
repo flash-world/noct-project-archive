@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>ALA Earth Day Project</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ascend's Earth Day project.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Joshua Lovelace">
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+    <icon href="svg/ala.svg"></icon>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,900;1,100;1,200;1,400&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+	
+	</head>
+
+  <body>
+  <div class="header" style="color: white; background-image: url(./images/earth2.webp); background-position: center; background-color: black; text-shadow: 2px 2px black; background-attachment: fixed;">
+<h1>Ascend Earth Day Project</h1>
+</div>
+   <div class="topnav">
+   
+  <a class="active" href="./index.html">Home</a>
+  <a class="a" href="./html/about.html">Facts</a>
+  <a class="b" href="https://www.ascendleadershipacademy.org/">School Website</a>
+  <a class="a" href="./html/phogal.html">Image Gallery</a>
+  <a class="a" style="float:right;" href="./html/abt.html">About</a>
+</div>
+<div class="row">
+<div class="columncenter">
+<h2 style="text-align:center;"> We're Celebrating Earth Day</h2>
+<p>Here at ALA we are celebrating Earth Day by being enviromental-friendly! With all our <i>Ideas</i> we came up with the simple but helpful idea of keeping lights off to save power. </p>
+</div>
+</div>
+
+  </body>
+</html>

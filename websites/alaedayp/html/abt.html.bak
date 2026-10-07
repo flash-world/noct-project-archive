@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>About</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ascend's Earth Day project.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Joshua Lovelace">
+    <link rel="stylesheet" href="../styles.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,900;1,100;1,200;1,400&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+  <div class="row">
+<div class="column">
+<h2 style="text-align:center;"> Programming: Joshua Lovelace</h2>
+  <button class="divc" ><a href="https://joshualovelace.netlify.app/"></a></button>
+<p> </p>
+</div>
+</div>
+</body>
+</html>

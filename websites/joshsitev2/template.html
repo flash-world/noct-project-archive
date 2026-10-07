@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>nothingness </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="./gif/ah.gif">
+  
+  </head>
+<body>
+    <div style="background-image: url(./gif/o.gif); background-position: center;" class="headersec">
+        <h1>nothingness</h1>
+        <p><i>nothingness</i></p>
+
+      </div>
+      
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a class="active" >nothingness</a>
+      </div>
+    <div style="text-align: center;"class="generic">
+        <h2>title</h2>
+        <img src="./gif/o.gif">
+        <p style="text-align: center;">big sweet succulent stomas peacefully grazing in the moist wet fields of West Virginia
+         </p>
+         <p>I left this page alive which is <i>truly insane</i></p>
+    </div> 
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>     
+</body>
+</html>
